@@ -1,7 +1,6 @@
 package edu.teamrocket.galleyGrub;
 
-import edu.teamrocket.galleyGrub.item.*;
-import edu.teamrocket.galleyGrub.item.RetailPrice;
+import edu.teamrocket.galleyGrub.items.*;
 
 
 

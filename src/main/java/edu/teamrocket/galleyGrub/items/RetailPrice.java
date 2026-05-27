@@ -1,4 +1,4 @@
-package edu.teamrocket.galleyGrub.item;
+package edu.teamrocket.galleyGrub.items;
 
 import java.util.HashMap;
 import java.util.Map;
