@@ -4,11 +4,10 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class RetailPrice {
-    static Map<String, Double> prices;
+    static Map<String, Double> prices = new HashMap<>();
        
 
     public RetailPrice() {
-       prices = new HashMap<>();
        init_prices();
     }
 
