@@ -1,6 +1,7 @@
 package edu.teamrocket.galleyGrub;
 
 import edu.teamrocket.galleyGrub.items.*;
+import edu.teamrocket.galleyGrub.order.*;
 
 
 
@@ -103,15 +104,16 @@ import edu.teamrocket.galleyGrub.items.*;
 //          * ahorrando asi memoria.
 //          */
 
-//         Comanda order = new Order();
+        Comanda order = new Order();{
 
-//         order.addItem("Krabby Patty", 1.25);
-//         order.addItem("Coral Bits", 1.00);
-//         order.addItem("Kelp Rings", 1.50);
-//         order.addItem("Golden Loaf", 2.00);
-//         order.addItem("Seafoam Soda", 1.00);
+        order.addItem("Krabby Patty", 1.25);
+        order.addItem("Coral Bits", 1.00);
+        order.addItem("Kelp Rings", 1.50);
+        order.addItem("Golden Loaf", 2.00);
+        order.addItem("Seafoam Soda", 1.00);
 
-//         order.display();
+        order.display();
+        }
 
 //         /**
 //          * Squidward Tentacles genera el recibo,
