@@ -3,7 +3,7 @@ package edu.teamrocket.galleyGrub.items;
 public interface Product {
 
         public String name();
-        public double price();
+        public Double price();
         public String extra();
-        public boolean isRegular();
+        public Boolean isRegular();
 }

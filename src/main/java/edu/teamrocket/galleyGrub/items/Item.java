@@ -24,7 +24,7 @@ public class Item implements Product {
     }
 
     @Override
-    public double price() {
+    public Double price() {
         return this.price;
     }
 
@@ -34,7 +34,7 @@ public class Item implements Product {
     }
 
     @Override
-    public boolean isRegular() {
+    public Boolean isRegular() {
         return this.extra == null;
     }
 

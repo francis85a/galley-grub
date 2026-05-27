@@ -1,5 +1,8 @@
 package edu.teamrocket.galleyGrub.order;
 
+import java.util.List;
+import edu.teamrocket.galleyGrub.items.Item;
+
 public interface Comanda {
     
     void addItem(String name, double price);
@@ -10,10 +13,10 @@ public interface Comanda {
 
     List<Item> itemList();
 
-    double getTotal();
+    Double getTotal();
 
-    void updateTotal(double price);
-    
+    void updateTotal(Double price);
+
     void display();
 
 }
