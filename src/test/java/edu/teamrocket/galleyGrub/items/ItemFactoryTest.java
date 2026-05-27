@@ -2,13 +2,14 @@ package edu.teamrocket.galleyGrub.items;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 
 
 public class ItemFactoryTest {
 
-    @Test
+    @BeforeEach
     public void setup_itemFactory() {
         ItemFactory.clear();
         assertEquals(0, ItemFactory.size());

@@ -40,7 +40,12 @@ public class Item implements Product {
 
     @Override
     public String toString() {
-        return "Item(name: " + this.name + ", price: " + this.price + ", extra: " + this.extra + ")\n";
+        String priceFormatted = String.format("%.2f", this.price).replace(".", ",");
+        if (this.extra == null) {
+            return this.name + "...." + priceFormatted + "$";
+        } else {
+            return this.name + " w/ " + this.extra + "...." + priceFormatted + "$";
+        }
     }
 
     @Override

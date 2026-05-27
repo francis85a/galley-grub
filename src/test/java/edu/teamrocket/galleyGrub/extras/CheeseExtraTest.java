@@ -13,8 +13,7 @@ import edu.teamrocket.galleyGrub.order.*;
 import edu.teamrocket.galleyGrub.extras.*;
 
 
-
-public public class CheeseExtraTest {
+public class CheeseExtraTest {
 
     static Receipt receipt;
     static Extra cheese;
@@ -42,7 +41,5 @@ public public class CheeseExtraTest {
 
         cheese.sumExtras(order);
         assertEquals(0.25d, order.getTotal(), 0.1d);
-    }    
-} {
-    
+    }
 }

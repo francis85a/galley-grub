@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 
 import edu.teamrocket.galleyGrub.order.*;
-import edu.teamrocket.galleyGrub.receipt.*;
+import edu.teamrocket.galleyGrub.receipts.*;
 import edu.teamrocket.galleyGrub.extras.*;
 
 
@@ -55,6 +55,4 @@ public class RegularTest {
         regular.sumExtras(order);
         assertEquals(6.75d, order.getTotal(), 0.1d);
     }
-} {
-    
 }

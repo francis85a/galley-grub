@@ -6,14 +6,17 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import edu.teamrocket.galleyGrub.extras.*;
+import edu.teamrocket.galleyGrub.order.*;
+import edu.teamrocket.galleyGrub.receipts.*;
+
 
 public class ReceiptTest {
 
     Receipt receipt;
     Order order;
     Extra cheese;
-    
-    @Before
+
+    @BeforeEach
     public void setup_receipt() {
 
         order = new Order();

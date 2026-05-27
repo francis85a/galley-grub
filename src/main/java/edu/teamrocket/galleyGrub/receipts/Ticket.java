@@ -6,7 +6,7 @@ import edu.teamrocket.galleyGrub.order.Comanda;
 public interface Ticket {
     public Comanda getOrder();
 
-    public void setChain(Extra);
+    public void setChain(Extra extra);
 
     public Extra getChain();
 

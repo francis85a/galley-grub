@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.BeforeAll;
 
 import edu.teamrocket.galleyGrub.order.*;
-import edu.teamrocket.galleyGrub.receipt.*;
+import edu.teamrocket.galleyGrub.receipts.*;
 import edu.teamrocket.galleyGrub.extras.*;
 
 public class SauceExtraTest {
