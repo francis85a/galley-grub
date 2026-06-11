@@ -5,11 +5,7 @@ import edu.teamrocket.galleyGrub.order.Comanda;
 
 public class SauceExtra extends Extra {
 
-    private Double SAUCE_PRICE = 0.50d;
-
     public SauceExtra() {
-        super();
-        this.extraProduct = SAUCE;
     }
 
     @Override
@@ -17,7 +13,7 @@ public class SauceExtra extends Extra {
         long countSauce = order.itemList().stream()
             .filter(item -> item.toString().contains("sauce"))
             .count();
-        order.updateTotal(SAUCE_PRICE * countSauce);
+        order.updateTotal(Extras.SAUCE.getPrice() * countSauce);
         if (this.nextExtra.isPresent()) {
             this.nextExtra.get().sumExtras(order);
         }
